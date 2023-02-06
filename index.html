@@ -9,17 +9,17 @@
 <body>
     <nav class="main-navigation">
         <ul class="menu-list">
-            <li><a href="">About us</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#about us">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section>
+    <section id="about us">
         <h2>About us</h2>
         <p>We are programmers</p>
     </section>
-    <section>
+    <section id="skills">
         <h2>Skills</h2>
         <div class="skill">
             <h3>emmet</h3>
@@ -38,7 +38,7 @@
             <p>css</p>
         </div>
     </section>
-    <section>
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="portfolio-item">
             <img src="img/code-gac936bf1b_640.jpg" alt="programming">
@@ -49,6 +49,24 @@
         <div class="portfolio-item">
             <img src="img/monitor-g676de684f_640.jpg" alt="internet">
         </div>
+    </section>
+    <section id="contact">
+        <h2>Grzegorz Barglik</h2>
+        <address>
+            Grzegorz Barglik<br>
+            ul. Kossak-Szczuckiej 25f<br>
+            40-578 Katowice<br>
+            Polska
+        </address>
+        <form action="/action_page.php">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="text">Temat:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="text">Wiadomość:</label><br>
+            <input type="text" id="wiadomość" name="wiadomość" value=""><br><br>
+            <input type="submit" value="wyślij">
+          </form> 
     </section>
 </body>
 </html>
